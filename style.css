@@ -1,0 +1,395 @@
+/* -------------------------------------------------------------------CSS code starts here -------------------------------------------------------------------- */
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inknut+Antiqua&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lora:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Kaisei+Decol&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Karla&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+}
+#container{
+    margin: 25px 80px;
+    width: auto;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    flex: auto;
+}
+#logo{
+    border-right: 3px solid black;
+    position: absolute;
+}
+ul{
+    list-style: none;
+}
+.menu{
+    padding-left: 70px;
+    float: left;
+}
+#header{
+    display: block;
+    padding-left: 240px;
+    align-items: center;
+    font-family: 'Inter', sans-serif;
+}
+#header ul li a{
+    text-decoration: none;
+    color: black;
+    font-size: 16px;
+    position: relative;
+    display: inline-block;
+}
+#search{
+    float: right;
+    padding-right: 90px;
+
+}
+#textsearch{
+   padding: 5px;
+   border-radius: 10px;
+   width: 150px;
+   font-size: 12px ;
+   font-family: 'Inter', sans-serif;
+}
+.submit{
+    padding: 4.5px;
+    font-size: 12px;
+    color: white;
+    background-color: black;
+    border-radius: 10px;
+    width: auto;
+    font-family: 'Inter', sans-serif;
+    cursor: pointer;
+}
+#imagesection{
+    margin: 80px 80px 0 90px;
+    height:550px ;
+    width: 1350px;
+    padding-top: 18px;
+    display: flex;
+    flex-direction: column;
+    flex: auto;
+}
+#background{
+    height:630px ;
+    width: 1350px;
+   
+    position: absolute;
+}
+#getstarted{
+    padding: 7px;
+    font-size: 18px;
+    color: black;
+    background-color: white;
+    border-radius: 10px;
+    width: auto;
+    font-family: 'Inter', sans-serif;
+    position: absolute;
+    align-items: center;
+    margin-top: 520px;
+    margin-left: 625px;
+    display: flex;
+    flex-direction: column;
+    flex: auto;
+    cursor: pointer;
+    border: none;
+    
+}
+#text{
+    font-size: 17px;
+    color: white;
+    font-family: 'Inter', sans-serif;
+    position: absolute;
+    margin-top: 430px;
+    margin-left: 500px;
+    display: flex;
+    flex-direction: column;
+    flex: auto; 
+    border: none;
+}
+
+#text2{
+    font-size: 16px;
+    color: white;
+    font-family: 'Inknut Antiqua', serif;
+    position: absolute;
+    margin-top: 480px;
+    margin-left: 540px; 
+    display: flex;
+    flex-direction: column;
+    flex: auto;
+    
+}
+
+#defination{
+    margin: 83px 95px;
+    width: auto;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    flex: auto;
+    line-break: normal;
+    line-height: 31px;
+    
+}
+.description{
+    color: black;
+    font-size: 25px;
+    font-family: 'Lora', serif;
+    display: flex;
+    flex-direction: column;
+    flex: auto;
+    padding-top: 40px;
+    
+    
+    }
+.descriptionAns{
+    color: black;
+    font-size: 15px;
+    font-family: 'Kaisei Decol', serif
+}
+.footer{
+    height: 50px;
+    margin-top: 27px;
+    color: black;
+    font-size: 15px;
+    display: flex;
+    flex-direction: column;
+    flex: auto;
+    align-items: center;
+}
+.footer2{
+    height: 50px;
+    margin-top: 5px;
+    margin-left: 600px;
+    color: black;
+    font-size: 15px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    flex: auto;
+}
+#contact{
+    border-radius: 10px;
+    padding: 40px 45px;
+    width: 430px;
+    height: auto;
+    margin: 20px 550px;
+    margin-bottom: 5px;
+    background-color: black;
+}
+#contactus{
+    display: flex;
+    flex-direction: column;  
+}
+.inputtype{
+    width: 400px;
+    height: 10px;
+    padding: 12px;
+    font-size: 15px;
+    border-radius: 10px;
+    border: none;
+    font-family: 'Karla', sans-serif;
+    margin-bottom: 15px;
+}
+#submit1{
+    padding: 5px;
+    border: none;
+    font-size: 18px;
+    color: black;
+    background-color: white;
+    border-radius: 10px;
+    width: auto;
+    font-family: 'Inter', sans-serif;
+    cursor: pointer;
+    width: 100px;
+    margin: 20px 150px;
+}
+#query{
+    width: 420px ;
+    height: 100px;
+    margin-top: 15px;
+    font-size: 15px;
+    border-radius: 10px;
+    border: none;
+    margin-left: 3px;
+    color: black;
+    font-family: 'Karla', sans-serif;
+}
+.lablename{
+    font-size: 15px;
+    padding-left: 10px;
+    margin-bottom: 3px;
+    color: whitesmoke;
+    font-family: 'Inter', sans-serif;
+}
+#contactstate{
+    margin-top: 100px;
+    margin-left: 680px;
+    font-size: 25px;
+    font-family: 'Inter', sans-serif;
+}
+form ::placeholder{
+    color: gray;
+}
+#myframe{
+    margin-top: 90px;
+    margin-left: 90px;
+    float: left;
+    border: 3px solid black;
+    background-color: black;
+}
+#section{
+    border: 1px solid black;
+    width: auto;
+    font-size: 18px;
+    float: left;
+    margin-top: 100px;
+    margin-left: 50px;
+    line-height: 60px;
+    padding: 0px 20px;
+    border-radius: 15px;
+    font-family: 'Inter', sans-serif;
+}
+#section ul li a{
+    text-decoration: none;
+    color: black;
+}
+.footer1
+{
+    height: 60px;
+    margin-top: 680px;
+    color: black;
+    font-size: 15px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    flex: auto;
+}
+.materials{
+    margin-top: 100px;
+    margin-bottom: 50px;
+    font-family: 'Inter', sans-serif;
+}
+#speaking{
+    width: 170px;
+    height: 200px;
+    margin: 50px;
+    margin-left: 28%;
+    background-color: #51B5EE;
+
+}
+#writing{
+    width: 170px;
+    height: 200px;
+    margin: 50px;
+    margin-right: 28%;
+    float: right;
+    background-color: #161C39;
+}
+#reading{
+    width: 170px;
+    height: 200px;
+    margin: 50px;
+    margin-top: 8px;
+    margin-right: 28%;
+    float: right;
+    background-color: #51B5EE;
+}
+#listening{
+    width: 170px;
+    height: 200px;
+    margin: 50px;
+    margin-left: 28%;
+    background-color: #161C39;
+}
+.studylogo{
+    width: 40px;
+    height: 40px;
+    padding: 13px;
+}
+.materials a{
+    text-decoration: none;
+    color: white;
+}
+.studytext1{
+    font-size: 20px;
+    padding: 50px;
+    padding-top: 70px;
+}
+.studytext2{
+    font-size: 20px;
+    padding: 50px;
+    padding-top: 70px;
+    padding-left: 40px;
+}
+.materialheading{
+    font-size: 20px;
+    padding-left: 600px;
+    font-family: 'Inter', sans-serif;
+}
+#speakingtips{
+    width: 250px;
+    height: 150px;
+    margin: 50px;
+    margin-left: 28%;
+}
+#writingtips{
+    width: 250px;
+    height: 150px;
+   margin-right: 28%;
+    float: right;
+    margin-top:50px;
+}
+#readingtips{
+    width: 250px;
+    height: 210px;
+    margin-right: 28%;
+    float: right;
+}
+#listeningtips{
+    width: 250px;
+    height: 150px;
+    margin-left: 28%;
+}
+.tipslogo{
+    width: 100px;
+    height: 120px;
+    margin: 10px;
+    margin-left: 0px;
+    float: left;
+}
+.tipstext{
+    font-size: 14px;
+    padding: 30px;
+    padding-bottom: 10px;
+}
+.material{
+    margin-top: 130px;
+    margin-bottom: 100px;
+    font-family: 'Inter', sans-serif;
+}
+.download{
+    background-color: black;
+    color: white;
+    border-radius: 10px;
+    padding: 2px;
+    width: 100px;
+    font-size: 13px;
+    font-family: 'Inter', sans-serif;
+    cursor: pointer;
+}
+.button{
+    background-color: black;
+    text-decoration: none;
+    color: white;
+    border-radius: 10px;
+    font-size: 13px;
+    padding: 6px;
+}
+#subscribeemail{
+    /* float: right; */
+    padding-left: 520px;
+}
+/* -------------------------------------------------------------------CSS code ends here -------------------------------------------------------------------- */

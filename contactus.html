@@ -1,0 +1,59 @@
+<!-- -------------------------------------------------------------the contactus code starts here---------------------------------------------------------------- -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Crackre-Contact</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="images/iconlogo.png" type="image/x-icon">
+</head>
+<body>
+    <!-- container div starts here  -->
+    <div id="container">
+        <div id="crackre"><a href="index.html"><img src="images/logo.png" id="logo" width="200" height="75"></a></div>
+    </div>
+    <!-- container div ends here  -->
+    <!-- header div starts here  -->
+    <div id="header">
+        <ul>
+            <li class="menu"><a href="index.html">HOME</a></li>
+            <li class="menu"><a href="tutorials.html">TUTORIALS</a></li>
+            <li class="menu"><a href="studymaterials.html">STUDY MATERIALS</a></li>
+            <li class="menu"><a href="tips.html">STUDY TIPS</a></li>
+            <li class="menu"><a href="contactus.html">CONTACT US</a></li>
+        </ul>
+        <form action="get" id="search">
+            <input type="text" placeholder="type here..." id="textsearch">
+            <button class="submit">search</button>
+        </form>
+    </div>
+    <!-- header div ends here  -->
+    <p id="contactstate">How can we help you?</p>
+        <!-- contact div starts here  -->
+        <div id="contact"> 
+        <form id="contactus" action="https://formspree.io/f/xayklzrz" method="POST">
+        <!-- <form id="contactus" action="https://formsubmit.co/ieltscrackre@email.com" method="POST"> -->
+            <label class="lablename">Name</label>
+            <input type="text" placeholder="Enter your Name" name="name" class="inputtype" required>
+            <label class="lablename">E-mail ID</label>
+            <input type="text" placeholder="Enter your Email ID" name="email" class="inputtype"required>
+            <label class="lablename">Phone No.</label>
+            <input type="text" placeholder="Enter your Phone number " name="phone" class="inputtype" required>
+            <textarea row="4" placeholder="Please type your query here"name="query" id="query" required></textarea>
+            <button id="submit1">Submit</button>
+        </form>
+    </div>
+    <!-- contact div ends here  -->
+    <!-- footer div starts here  -->
+    <footer class="footer">
+        <div>
+            <p>CRACKRE. copyright &copy; 2022-present</p>
+        </div>
+
+       </footer>
+       <!-- footer div ends here  -->
+</body>
+</html>
+<!-- -------------------------------------------------------------the contactus code ends here---------------------------------------------------------------- -->
